@@ -10,13 +10,15 @@ Encrypt your keys on your local computer for [trader1.co](https://trader1.co).
 
 ### Ubuntu / Debian
 ```
-apt install python3-pip
+sudo apt install python3-pip
 pip3 install pycrypto
 ```
 
 ## Encrypt Your Keys
 
 ```
+git clone https://github.com/Trader1bot/encryption.git
+cd encryption/
 python trader1-encrypt.py
 ```
 
